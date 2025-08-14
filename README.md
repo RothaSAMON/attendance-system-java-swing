@@ -28,6 +28,51 @@ To deliver a fast and effective search function. This allows the administrator t
 - Maintain Secure and Structured Records
 To establish a centralized and structured database for all personnel information. This guarantees data consistency, enhances security, and provides a reliable foundation for managing and protecting valuable records, unlike scattered and vulnerable manual files.
 
+## 🌟 System Design
+### 🚀 Architecture Overview
+The system follows a 3-tier architecture:
+
+1. Presentation Layer (UI)
+```bash
+MainFrame.java - Main application window with tabbed interface
+
+StudentsPanel.java - Student management interface
+
+EmployeesPanel.java - Employee management interface
+
+ClassesPanel.java - Class management interface
+
+AttendancePanel.java - Attendance tracking interface
+```
+
+2. Business Logic Layer (Models)
+```bash
+Student.java - Student entity model
+
+Employee.java - Employee entity model
+
+CourseClass.java - Class entity model
+
+AttendanceRecord.java - Attendance record model
+
+AttendanceStatus.java - Attendance status enumeration
+```
+
+3. Data Access Layer (DAO)
+```bash
+Database.java - Database connection and schema management
+
+StudentDao.java - Student data access operations
+
+EmployeeDao.java - Employee data access operations
+
+ClassDao.java - Class data access operations
+
+AttendanceDao.java - Attendance data access operations
+
+EnrollmentDao.java - Enrollment data access operations
+```
+
 ## 🌟 Testing & Quality Assurance
 1. Testing Approach
 Our testing strategy involved multiple layers to ensure the application was robust and reliable.
