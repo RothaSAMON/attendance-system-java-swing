@@ -8,6 +8,9 @@ java -cp "out:lib/*" attendance.ui.MainFrame
 ```bash
 java -cp "out;lib/*" attendance.ui.MainFrame
 ```
+## 💡 Purpose of the Project
+This project was created and submitted as a school assignment for Java programming. It was developed using Java, Swing GUI, and SQLite.
+
 ## 🌟 What is an Attendance Management System?
 An Attendance Management System is a digital tool used to track the presence of individuals, such as students or staff. It automates record-keeping to replace manual paper methods, ensuring accuracy and saving time.
 
